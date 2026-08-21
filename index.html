@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Uppu Venkata Ramanaiah - Cybersecurity Portfolio" />
+  <title>Uppu Venkata Ramanaiah | Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">&lt;RAMANAI /&gt;</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">CYBERSECURITY • PYTHON • SOC • SOFTWARE DEVELOPMENT</p>
+        <h2>Hi, I'm <span>UPPU VENKATA RAMANAIAH</span></h2>
+        <h3>Cybersecurity Enthusiast &amp; Aspiring SOC Analyst</h3>
+        <p class="hero-text">
+          I build practical security projects, explore Linux and networking,
+          and use Python to automate security tasks. I'm focused on developing
+          real-world skills for a career in cybersecurity.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">View My Work <span>↗</span></a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="quick-info">
+          <span>📍 Andhra Pradesh, India</span>
+          <span>🎓 B.Tech CSE</span>
+          <span>🛡️ Cybersecurity</span>
+          <span>⌨️ Software development</span>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal">
+        <div class="photo-ring">
+          <div class="photo-placeholder">
+               <img src="images\ramana.jpeg" alt="Profile Photo" />
+          </div>
+        </div>
+       
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — ABOUT</p>
+        <h2>Turning curiosity into <span>security skills.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="glass-card reveal">
+          <p>
+            I'm a Computer Science Engineering student interested in cybersecurity,
+            SOC operations, networking, Linux and Python. I enjoy learning by building
+            projects and solving practical technical problems.
+          </p>
+          <p>
+            My current goal is to become an entry-level SOC Analyst and continuously
+            grow toward advanced security operations and defensive security.
+          </p>
+        </div>
+        <div class="stats-grid reveal">
+          <div class="stat"><strong>01</strong><span>Cybersecurity Focus</span></div>
+          <div class="stat"><strong>02</strong><span>Python Projects</span></div>
+          <div class="stat"><strong>03</strong><span>Networking & Linux</span></div>
+          <div class="stat"><strong>04</strong><span>Continuous Learning</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 — SKILLS</p>
+        <h2>My <span>technical toolkit.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon">🐍</div><h3>Python</h3><p>Scripting, automation and security utilities.</p></article>
+        <article class="skill-card reveal"><div class="skill-icon">🐧</div><h3>Linux</h3><p>Command line, permissions and system fundamentals.</p></article>
+        <article class="skill-card reveal"><div class="skill-icon">⚔️</div><h3>Kali Linux</h3><p>Security tooling and hands-on lab practice.</p></article>
+        <article class="skill-card reveal"><div class="skill-icon">🔎</div><h3>Nmap</h3><p>Network discovery and security scanning.</p></article>
+        <article class="skill-card reveal"><div class="skill-icon">📡</div><h3>Wireshark</h3><p>Packet analysis and network troubleshooting.</p></article>
+        <article class="skill-card reveal"><div class="skill-icon">🌐</div><h3>Networking</h3><p>TCP/IP, DNS, HTTP, OSI and network basics.</p></article>
+        <article class="skill-card reveal"><div class="skill-icon">🚨</div><h3>SOC Fundamentals</h3><p>Logs, alerts, incident response and SIEM concepts.</p></article>
+        <article class="skill-card reveal"><div class="skill-icon">💻</div><h3>Web Technologies</h3><p>HTML, CSS, JavaScript and basic React knowledge.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 — PROJECTS</p>
+        <h2>Things I've <span>built & explored.</span></h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-top"><span>SECURITY</span><span>01</span></div>
+          <h3>Password Strength Checker</h3>
+          <p>A Python-based utility that evaluates password strength using security rules and gives actionable feedback.</p>
+          <div class="tags"><span>Python</span><span>Security</span></div>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-top"><span>NETWORKING</span><span>02</span></div>
+          <h3>Network Analysis Lab</h3>
+          <p>A learning project focused on packet capture, protocol identification and traffic analysis with Wireshark.</p>
+          <div class="tags"><span>Wireshark</span><span>TCP/IP</span></div>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-top"><span>PYTHON</span><span>03</span></div>
+          <h3>Security Automation Toolkit</h3>
+          <p>A collection of small Python scripts for automating repetitive security-learning and system tasks.</p>
+          <div class="tags"><span>Python</span><span>Linux</span></div>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 — EDUCATION</p>
+        <h2>My <span>learning journey.</span></h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div><span class="date">2023 — 2027</span><h3>B.Tech — Computer Science &amp; Engineering</h3><p>JNTUA • Andhra Pradesh, India</p></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div><span class="date">Cybersecurity</span><h3>Continuous Practical Learning</h3><p>Linux • Networking • Nmap • Wireshark • SOC fundamentals • Python</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow">05 — CONTACT</p>
+        <h2>Let's build something <span>secure.</span></h2>
+        <p>I'm open to internships, entry-level cybersecurity opportunities and technical collaborations.</p>
+        <div class="contact-links">
+          <a href="mailto:venkataramanaiahuppu6@gmail.com">✉ venkataramanaiahuppu6@gmail.com</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">in LinkedIn</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">⌘ GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Uppu Venkata Ramanaiah. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
